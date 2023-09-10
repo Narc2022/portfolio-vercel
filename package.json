@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Narc2022/Portfolio/issues"
   },
-  "homepage": "https://github.com/Narc2022/Portfolio#readme",
+  "homepage": "https://portfolio-vercel-delta-five.vercel.app",
   "dependencies": {
     "cloudinary": "^1.29.0",
     "cookie-parser": "^1.4.6",
