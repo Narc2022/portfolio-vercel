@@ -4,11 +4,10 @@ import * as THREE from 'three'
 import moonImage from '../../Images/moon.jpg';
 import venusImage from '../../Images/venus.jpg';
 import spaceImage from '../../Images/space.jpg';
-import {Link, Typography} from "@mui/material";
+import { Typography} from "@mui/material";
 import TimeLine from '../TimeLine/TimeLine';
 
 import {
-  SiCplusplus,
   SiReact,
   SiJavascript,
   SiMongodb,
@@ -135,12 +134,11 @@ const Home = ({timelines,youtubes,skills}) => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2">DESIGNER</Typography>
-          <Typography variant="h2">DEVELOPER</Typography>
-          <Typography variant="h2">TEACHER</Typography>
-          <Typography variant="h2">CONTENT CREATOR</Typography>
+          <Typography variant="h2">SOFTWARE <br/> DEVELOPER <br/>(UI/UX)</Typography>
+          <Typography variant="h2">& Mentor</Typography>
         </div>
-        <Link to="/projects">VIEW WORK</Link>
+        <a href="/projects">VIEW WORK</a>
+
       </div>
       <div className="homeContainer">
         <Typography variant='h3'>TIMELINE</Typography>
@@ -193,7 +191,6 @@ const Home = ({timelines,youtubes,skills}) => {
           <div className="cubeShadow">
           </div>
           <div className="homeskillsBox" id='homeskillsBox'>
-            <SiCplusplus />
             <SiReact />
             <SiJavascript />
             <SiMongodb />
